@@ -2,9 +2,12 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
+ARG branch='master'
+
 RUN apt-get update \
     && apt-get install -y --no-install-recommends git \
     && git clone https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard.git /app \
+    && git checkout $branch \
     && apt-get purge -y git \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*
