@@ -2,7 +2,7 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-ARG branch='master'
+ARG branch='feature/wbc'
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends git \
