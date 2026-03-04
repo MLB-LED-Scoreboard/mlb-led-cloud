@@ -1,0 +1,25 @@
+Dockerfile
+.dockerignore
+
+# Git
+.git
+.gitignore
+
+# Environment / secrets
+.env
+*.env
+*.pem
+*.key
+
+# Editor / OS
+.vscode
+.idea
+*.swp
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__
+*.pyc
+*.pyo
+.pytest_cache
