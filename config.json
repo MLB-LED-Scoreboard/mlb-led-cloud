@@ -1,7 +1,47 @@
 {
   "preferred": {
-    "teams": [],
-    "divisions": []
+    "teams": [
+      "Angels",
+      "D-backs",
+      "Orioles",
+      "Red Sox",
+      "Cubs",
+      "Reds",
+      "Guardians",
+      "Rockies",
+      "Tigers",
+      "Astros",
+      "Royals",
+      "Dodgers",
+      "Nationals",
+      "Mets",
+      "Athletics",
+      "Pirates",
+      "Padres",
+      "Mariners",
+      "Giants",
+      "Cardinals",
+      "Rays",
+      "Rangers",
+      "Blue Jays",
+      "Twins",
+      "Phillies",
+      "Braves",
+      "White Sox",
+      "Marlins",
+      "Yankees",
+      "Brewers"
+    ],
+    "divisions": [
+      "AL Central",
+      "AL West",
+      "AL East",
+      "AL Wild Card",
+      "NL Central",
+      "NL West",
+      "NL East",
+      "NL Wild Card"
+    ]
   },
   "news_ticker": {
     "team_offday": false,
