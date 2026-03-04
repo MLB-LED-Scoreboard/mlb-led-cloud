@@ -1,9 +1,9 @@
-# fly.toml app configuration file generated for mlb-led-cloud on 2026-03-04T01:36:45Z
+# fly.toml app configuration file generated for mlb-led-cloud-yaetca on 2026-03-04T17:21:46Z
 #
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = 'mlb-led-cloud'
+app = 'mlb-led-cloud-yaetca'
 primary_region = 'ord'
 
 [build]
