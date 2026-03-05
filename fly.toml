@@ -20,4 +20,4 @@ primary_region = 'iad'
   memory = '4gb'
   cpu_kind = 'shared'
   cpus = 4
-  memory_mb = 256
+  memory_mb = 1024
