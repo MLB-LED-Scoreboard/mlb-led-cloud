@@ -4,7 +4,7 @@
 #
 
 app = 'mlb-led-cloud'
-primary_region = 'ord'
+primary_region = 'iad'
 
 [build]
 
@@ -17,7 +17,7 @@ primary_region = 'ord'
   processes = ['app']
 
 [[vm]]
-  memory = '1gb'
+  memory = '4gb'
   cpu_kind = 'shared'
-  cpus = 1
+  cpus = 4
   memory_mb = 256
