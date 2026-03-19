@@ -2,12 +2,11 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-ARG branch='master'
+ARG REVISION='v8.5.9'
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends git \
-    && git clone https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard.git /app \
-    && git checkout $branch \
+    && git clone --depth 1 --branch $REVISION https://github.com/MLB-LED-Scoreboard/mlb-led-scoreboard.git /app \
     && apt-get purge -y git \
     && apt-get autoremove -y \
     && rm -rf /var/lib/apt/lists/*

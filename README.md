@@ -12,10 +12,10 @@ Runs the [MLB LED Scoreboard](https://github.com/MLB-LED-Scoreboard/mlb-led-scor
 docker build -t mlb-scoreboard .
 ```
 
-Optionally specify a branch or commit SHA to build
+Optionally specify a branch, tag, or commit SHA to build
 
 ```bash
-docker build --build-arg branch=some-branch-name -t mlb-led-scoreboard .
+docker build --build-arg REVISION=<branch,version,SHA> -t mlb-led-scoreboard .
 ```
 
 ## Run
