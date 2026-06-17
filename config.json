@@ -133,6 +133,7 @@
   "sync_delay_seconds": 0,
   "api_refresh_rate": 5,
   "scrolling_speed": 2,
+  "editorial_blurb": true,
   "debug": false,
   "demo_date": false
 }

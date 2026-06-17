@@ -2,7 +2,7 @@ FROM python:3.13-slim
 
 WORKDIR /app
 
-ARG REVISION='v9.1.1'
+ARG REVISION='v9.1.5'
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends git \
